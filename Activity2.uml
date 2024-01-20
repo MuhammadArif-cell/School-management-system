@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hk8IMGF_EeyTwfZLilyJVw" name="Activity2">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_hlpS0GF_EeyTwfZLilyJVw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_hlF5MGF_EeyTwfZLilyJVw" name="Student Activity" node="_qPWTkGF_EeyTwfZLilyJVw _sCYXcGF_EeyTwfZLilyJVw _sjQP4GF_EeyTwfZLilyJVw _w7Qx8GF_EeyTwfZLilyJVw _y47YgGF_EeyTwfZLilyJVw _zP9_gGF_EeyTwfZLilyJVw _0jMh8GF_EeyTwfZLilyJVw _1jgIYGF_EeyTwfZLilyJVw _3CcLkGF_EeyTwfZLilyJVw _HeRPYGGBEeyTwfZLilyJVw _JGEToGGBEeyTwfZLilyJVw _NGTO4GGBEeyTwfZLilyJVw _SnNSsGGBEeyTwfZLilyJVw _VVjvUGGBEeyTwfZLilyJVw _WBavwGGBEeyTwfZLilyJVw _X7aXQGGBEeyTwfZLilyJVw">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_iHpMoGF_EeyTwfZLilyJVw" name="Admin Activity" node="_iHpMt2F_EeyTwfZLilyJVw _iHpMuGF_EeyTwfZLilyJVw _iHpMuWF_EeyTwfZLilyJVw _iHpMumF_EeyTwfZLilyJVw _iHpMu2F_EeyTwfZLilyJVw _iHpMvGF_EeyTwfZLilyJVw _iHpMvWF_EeyTwfZLilyJVw _iHpMvmF_EeyTwfZLilyJVw _iHpMv2F_EeyTwfZLilyJVw _iHpMwGF_EeyTwfZLilyJVw _iHpMwWF_EeyTwfZLilyJVw _iHpMwmF_EeyTwfZLilyJVw _iHpMw2F_EeyTwfZLilyJVw _iHpMxGF_EeyTwfZLilyJVw _iHpMxWF_EeyTwfZLilyJVw _iHpMxmF_EeyTwfZLilyJVw _iHpMx2F_EeyTwfZLilyJVw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMoWF_EeyTwfZLilyJVw" name="[True]" target="_iHpMu2F_EeyTwfZLilyJVw" source="_iHpMuWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMomF_EeyTwfZLilyJVw" name="[else]" target="_iHpMumF_EeyTwfZLilyJVw" source="_iHpMuWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMo2F_EeyTwfZLilyJVw" target="_iHpMuWF_EeyTwfZLilyJVw" source="_iHpMuGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMpGF_EeyTwfZLilyJVw" target="_iHpMvWF_EeyTwfZLilyJVw" source="_iHpMumF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMpWF_EeyTwfZLilyJVw" target="_iHpMvWF_EeyTwfZLilyJVw" source="_iHpMt2F_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMpmF_EeyTwfZLilyJVw" target="_iHpMuGF_EeyTwfZLilyJVw" source="_iHpMvWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMp2F_EeyTwfZLilyJVw" name="[StudentOperations]" target="_iHpMvmF_EeyTwfZLilyJVw" source="_iHpMvGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMqGF_EeyTwfZLilyJVw" name="[TeacherOperations]" target="_iHpMwWF_EeyTwfZLilyJVw" source="_iHpMvGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMqWF_EeyTwfZLilyJVw" name="[ClassOperations]" target="_iHpMv2F_EeyTwfZLilyJVw" source="_iHpMvGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMqmF_EeyTwfZLilyJVw" name="[SubjectOperations]" target="_iHpMwGF_EeyTwfZLilyJVw" source="_iHpMvGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMq2F_EeyTwfZLilyJVw" name="[AttendanceOperations]" target="_iHpMwmF_EeyTwfZLilyJVw" source="_iHpMvGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMrGF_EeyTwfZLilyJVw" target="_iHpMw2F_EeyTwfZLilyJVw" source="_iHpMvmF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMrWF_EeyTwfZLilyJVw" target="_iHpMw2F_EeyTwfZLilyJVw" source="_iHpMwWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMrmF_EeyTwfZLilyJVw" target="_iHpMw2F_EeyTwfZLilyJVw" source="_iHpMv2F_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMr2F_EeyTwfZLilyJVw" target="_iHpMw2F_EeyTwfZLilyJVw" source="_iHpMwGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMsGF_EeyTwfZLilyJVw" target="_iHpMw2F_EeyTwfZLilyJVw" source="_iHpMwmF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMsWF_EeyTwfZLilyJVw" target="_iHpMxGF_EeyTwfZLilyJVw" source="_iHpMw2F_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMsmF_EeyTwfZLilyJVw" name="[True]" target="_iHpMxWF_EeyTwfZLilyJVw" source="_iHpMxGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMs2F_EeyTwfZLilyJVw" target="_iHpMxmF_EeyTwfZLilyJVw" source="_iHpMxWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMtGF_EeyTwfZLilyJVw" target="_iHpMx2F_EeyTwfZLilyJVw" source="_iHpMu2F_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMtWF_EeyTwfZLilyJVw" name="[else]" target="_iHpMx2F_EeyTwfZLilyJVw" source="_iHpMxGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_iHpMtmF_EeyTwfZLilyJVw" target="_iHpMvGF_EeyTwfZLilyJVw" source="_iHpMx2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_iHpMt2F_EeyTwfZLilyJVw" name="" outgoing="_iHpMpWF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMuGF_EeyTwfZLilyJVw" name="Login" incoming="_iHpMpmF_EeyTwfZLilyJVw" outgoing="_iHpMo2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_iHpMuWF_EeyTwfZLilyJVw" name="[Login verification]" incoming="_iHpMo2F_EeyTwfZLilyJVw" outgoing="_iHpMoWF_EeyTwfZLilyJVw _iHpMomF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMumF_EeyTwfZLilyJVw" name="Show Error Message" incoming="_iHpMomF_EeyTwfZLilyJVw" outgoing="_iHpMpGF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMu2F_EeyTwfZLilyJVw" name="Show Profile Page" incoming="_iHpMoWF_EeyTwfZLilyJVw" outgoing="_iHpMtGF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_iHpMvGF_EeyTwfZLilyJVw" name="[Choice]" incoming="_iHpMtmF_EeyTwfZLilyJVw" outgoing="_iHpMp2F_EeyTwfZLilyJVw _iHpMqGF_EeyTwfZLilyJVw _iHpMqWF_EeyTwfZLilyJVw _iHpMqmF_EeyTwfZLilyJVw _iHpMq2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_iHpMvWF_EeyTwfZLilyJVw" name="Merge" incoming="_iHpMpGF_EeyTwfZLilyJVw _iHpMpWF_EeyTwfZLilyJVw" outgoing="_iHpMpmF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMvmF_EeyTwfZLilyJVw" name="Add/Modify Student" incoming="_iHpMp2F_EeyTwfZLilyJVw" outgoing="_iHpMrGF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMv2F_EeyTwfZLilyJVw" name="Add/Modify Classes" incoming="_iHpMqWF_EeyTwfZLilyJVw" outgoing="_iHpMrmF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMwGF_EeyTwfZLilyJVw" name="Add/Modify Subject" incoming="_iHpMqmF_EeyTwfZLilyJVw" outgoing="_iHpMr2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMwWF_EeyTwfZLilyJVw" name="Add/Modify Teacher" incoming="_iHpMqGF_EeyTwfZLilyJVw" outgoing="_iHpMrWF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMwmF_EeyTwfZLilyJVw" name="Mark/Modify Attendance" incoming="_iHpMq2F_EeyTwfZLilyJVw" outgoing="_iHpMsGF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_iHpMw2F_EeyTwfZLilyJVw" name="Merge" incoming="_iHpMrGF_EeyTwfZLilyJVw _iHpMrWF_EeyTwfZLilyJVw _iHpMrmF_EeyTwfZLilyJVw _iHpMr2F_EeyTwfZLilyJVw _iHpMsGF_EeyTwfZLilyJVw" outgoing="_iHpMsWF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_iHpMxGF_EeyTwfZLilyJVw" name="[LogOut]" incoming="_iHpMsWF_EeyTwfZLilyJVw" outgoing="_iHpMsmF_EeyTwfZLilyJVw _iHpMtWF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iHpMxWF_EeyTwfZLilyJVw" name="Logout" incoming="_iHpMsmF_EeyTwfZLilyJVw" outgoing="_iHpMs2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_iHpMxmF_EeyTwfZLilyJVw" incoming="_iHpMs2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_iHpMx2F_EeyTwfZLilyJVw" name="Merge" incoming="_iHpMtGF_EeyTwfZLilyJVw _iHpMtWF_EeyTwfZLilyJVw" outgoing="_iHpMtmF_EeyTwfZLilyJVw"/>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_nm0yIGF_EeyTwfZLilyJVw" name="CopyOf_Admin Activity_1" node="_nm0yN2F_EeyTwfZLilyJVw _nm0yOGF_EeyTwfZLilyJVw _nm0yOWF_EeyTwfZLilyJVw _nm0yOmF_EeyTwfZLilyJVw _nm0yO2F_EeyTwfZLilyJVw _nm0yPGF_EeyTwfZLilyJVw _nm0yPWF_EeyTwfZLilyJVw _nm0yPmF_EeyTwfZLilyJVw _nm0yP2F_EeyTwfZLilyJVw _nm0yQGF_EeyTwfZLilyJVw _nm0yQWF_EeyTwfZLilyJVw _nm0yQmF_EeyTwfZLilyJVw _nm0yQ2F_EeyTwfZLilyJVw _nm0yRGF_EeyTwfZLilyJVw _nm0yRWF_EeyTwfZLilyJVw _nm0yRmF_EeyTwfZLilyJVw _nm0yR2F_EeyTwfZLilyJVw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yIWF_EeyTwfZLilyJVw" name="[True]" target="_nm0yO2F_EeyTwfZLilyJVw" source="_nm0yOWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yImF_EeyTwfZLilyJVw" name="[else]" target="_nm0yOmF_EeyTwfZLilyJVw" source="_nm0yOWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yI2F_EeyTwfZLilyJVw" target="_nm0yOWF_EeyTwfZLilyJVw" source="_nm0yOGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yJGF_EeyTwfZLilyJVw" target="_nm0yPWF_EeyTwfZLilyJVw" source="_nm0yOmF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yJWF_EeyTwfZLilyJVw" target="_nm0yPWF_EeyTwfZLilyJVw" source="_nm0yN2F_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yJmF_EeyTwfZLilyJVw" target="_nm0yOGF_EeyTwfZLilyJVw" source="_nm0yPWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yJ2F_EeyTwfZLilyJVw" name="[StudentOperations]" target="_nm0yPmF_EeyTwfZLilyJVw" source="_nm0yPGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yKGF_EeyTwfZLilyJVw" name="[TeacherOperations]" target="_nm0yQWF_EeyTwfZLilyJVw" source="_nm0yPGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yKWF_EeyTwfZLilyJVw" name="[ClassOperations]" target="_nm0yP2F_EeyTwfZLilyJVw" source="_nm0yPGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yKmF_EeyTwfZLilyJVw" name="[SubjectOperations]" target="_nm0yQGF_EeyTwfZLilyJVw" source="_nm0yPGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yK2F_EeyTwfZLilyJVw" name="[AttendanceOperations]" target="_nm0yQmF_EeyTwfZLilyJVw" source="_nm0yPGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yLGF_EeyTwfZLilyJVw" target="_nm0yQ2F_EeyTwfZLilyJVw" source="_nm0yPmF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yLWF_EeyTwfZLilyJVw" target="_nm0yQ2F_EeyTwfZLilyJVw" source="_nm0yQWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yLmF_EeyTwfZLilyJVw" target="_nm0yQ2F_EeyTwfZLilyJVw" source="_nm0yP2F_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yL2F_EeyTwfZLilyJVw" target="_nm0yQ2F_EeyTwfZLilyJVw" source="_nm0yQGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yMGF_EeyTwfZLilyJVw" target="_nm0yQ2F_EeyTwfZLilyJVw" source="_nm0yQmF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yMWF_EeyTwfZLilyJVw" target="_nm0yRGF_EeyTwfZLilyJVw" source="_nm0yQ2F_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yMmF_EeyTwfZLilyJVw" name="[True]" target="_nm0yRWF_EeyTwfZLilyJVw" source="_nm0yRGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yM2F_EeyTwfZLilyJVw" target="_nm0yRmF_EeyTwfZLilyJVw" source="_nm0yRWF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yNGF_EeyTwfZLilyJVw" target="_nm0yR2F_EeyTwfZLilyJVw" source="_nm0yO2F_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yNWF_EeyTwfZLilyJVw" name="[else]" target="_nm0yR2F_EeyTwfZLilyJVw" source="_nm0yRGF_EeyTwfZLilyJVw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nm0yNmF_EeyTwfZLilyJVw" target="_nm0yPGF_EeyTwfZLilyJVw" source="_nm0yR2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_nm0yN2F_EeyTwfZLilyJVw" name="" outgoing="_nm0yJWF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yOGF_EeyTwfZLilyJVw" name="Login" incoming="_nm0yJmF_EeyTwfZLilyJVw" outgoing="_nm0yI2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_nm0yOWF_EeyTwfZLilyJVw" name="[Login verification]" incoming="_nm0yI2F_EeyTwfZLilyJVw" outgoing="_nm0yIWF_EeyTwfZLilyJVw _nm0yImF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yOmF_EeyTwfZLilyJVw" name="Show Error Message" incoming="_nm0yImF_EeyTwfZLilyJVw" outgoing="_nm0yJGF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yO2F_EeyTwfZLilyJVw" name="Show Profile Page" incoming="_nm0yIWF_EeyTwfZLilyJVw" outgoing="_nm0yNGF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_nm0yPGF_EeyTwfZLilyJVw" name="[Choice]" incoming="_nm0yNmF_EeyTwfZLilyJVw" outgoing="_nm0yJ2F_EeyTwfZLilyJVw _nm0yKGF_EeyTwfZLilyJVw _nm0yKWF_EeyTwfZLilyJVw _nm0yKmF_EeyTwfZLilyJVw _nm0yK2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_nm0yPWF_EeyTwfZLilyJVw" name="Merge" incoming="_nm0yJGF_EeyTwfZLilyJVw _nm0yJWF_EeyTwfZLilyJVw" outgoing="_nm0yJmF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yPmF_EeyTwfZLilyJVw" name="Add/Modify Student" incoming="_nm0yJ2F_EeyTwfZLilyJVw" outgoing="_nm0yLGF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yP2F_EeyTwfZLilyJVw" name="Add/Modify Classes" incoming="_nm0yKWF_EeyTwfZLilyJVw" outgoing="_nm0yLmF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yQGF_EeyTwfZLilyJVw" name="Add/Modify Subject" incoming="_nm0yKmF_EeyTwfZLilyJVw" outgoing="_nm0yL2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yQWF_EeyTwfZLilyJVw" name="Add/Modify Teacher" incoming="_nm0yKGF_EeyTwfZLilyJVw" outgoing="_nm0yLWF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yQmF_EeyTwfZLilyJVw" name="Mark/Modify Attendance" incoming="_nm0yK2F_EeyTwfZLilyJVw" outgoing="_nm0yMGF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_nm0yQ2F_EeyTwfZLilyJVw" name="Merge" incoming="_nm0yLGF_EeyTwfZLilyJVw _nm0yLWF_EeyTwfZLilyJVw _nm0yLmF_EeyTwfZLilyJVw _nm0yL2F_EeyTwfZLilyJVw _nm0yMGF_EeyTwfZLilyJVw" outgoing="_nm0yMWF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_nm0yRGF_EeyTwfZLilyJVw" name="[LogOut]" incoming="_nm0yMWF_EeyTwfZLilyJVw" outgoing="_nm0yMmF_EeyTwfZLilyJVw _nm0yNWF_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nm0yRWF_EeyTwfZLilyJVw" name="Logout" incoming="_nm0yMmF_EeyTwfZLilyJVw" outgoing="_nm0yM2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_nm0yRmF_EeyTwfZLilyJVw" incoming="_nm0yM2F_EeyTwfZLilyJVw"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_nm0yR2F_EeyTwfZLilyJVw" name="Merge" incoming="_nm0yNGF_EeyTwfZLilyJVw _nm0yNWF_EeyTwfZLilyJVw" outgoing="_nm0yNmF_EeyTwfZLilyJVw"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yg2k0GGBEeyTwfZLilyJVw" target="_w7Qx8GF_EeyTwfZLilyJVw" source="_qPWTkGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zRA2cGGBEeyTwfZLilyJVw" target="_sjQP4GF_EeyTwfZLilyJVw" source="_w7Qx8GF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0DYHgGGBEeyTwfZLilyJVw" target="_sCYXcGF_EeyTwfZLilyJVw" source="_sjQP4GF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1NCeQGGBEeyTwfZLilyJVw" name="[else]" target="_y47YgGF_EeyTwfZLilyJVw" source="_sCYXcGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2c2gUGGBEeyTwfZLilyJVw" name="[True]" target="_zP9_gGF_EeyTwfZLilyJVw" source="_sCYXcGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5UjGMGGBEeyTwfZLilyJVw" target="_w7Qx8GF_EeyTwfZLilyJVw" source="_y47YgGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8uYv0GGBEeyTwfZLilyJVw" target="_0jMh8GF_EeyTwfZLilyJVw" source="_zP9_gGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9pZmkGGBEeyTwfZLilyJVw" target="_1jgIYGF_EeyTwfZLilyJVw" source="_0jMh8GF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__YAdcGGBEeyTwfZLilyJVw" name="[PersonalDetails]" target="_3CcLkGF_EeyTwfZLilyJVw" source="_1jgIYGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DFe0wGGCEeyTwfZLilyJVw" name="[AttendanceReport]" target="_HeRPYGGBEeyTwfZLilyJVw" source="_1jgIYGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Iji_8GGCEeyTwfZLilyJVw" name="[ClassDetails]" target="_JGEToGGBEeyTwfZLilyJVw" source="_1jgIYGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MfGPgGGCEeyTwfZLilyJVw" name="[SubjectDetails]" target="_NGTO4GGBEeyTwfZLilyJVw" source="_1jgIYGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_R9cHgGGCEeyTwfZLilyJVw" target="_SnNSsGGBEeyTwfZLilyJVw" source="_3CcLkGF_EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WQfREGGCEeyTwfZLilyJVw" target="_SnNSsGGBEeyTwfZLilyJVw" source="_HeRPYGGBEeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XJEe4GGCEeyTwfZLilyJVw" target="_SnNSsGGBEeyTwfZLilyJVw" source="_JGEToGGBEeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YG4K8GGCEeyTwfZLilyJVw" target="_SnNSsGGBEeyTwfZLilyJVw" source="_NGTO4GGBEeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZQnaMGGCEeyTwfZLilyJVw" target="_VVjvUGGBEeyTwfZLilyJVw" source="_SnNSsGGBEeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_a0r1AGGCEeyTwfZLilyJVw" name="[True]" target="_WBavwGGBEeyTwfZLilyJVw" source="_VVjvUGGBEeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fENJcGGCEeyTwfZLilyJVw" name="[else]" target="_0jMh8GF_EeyTwfZLilyJVw" source="_VVjvUGGBEeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_twQHIGGCEeyTwfZLilyJVw" target="_X7aXQGGBEeyTwfZLilyJVw" source="_WBavwGGBEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_qPWTkGF_EeyTwfZLilyJVw" name="" outgoing="_yg2k0GGBEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_sCYXcGF_EeyTwfZLilyJVw" name="[Login verification]" incoming="_0DYHgGGBEeyTwfZLilyJVw" outgoing="_1NCeQGGBEeyTwfZLilyJVw _2c2gUGGBEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_sjQP4GF_EeyTwfZLilyJVw" name="Login" incoming="_zRA2cGGBEeyTwfZLilyJVw" outgoing="_0DYHgGGBEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_w7Qx8GF_EeyTwfZLilyJVw" name="Merge" incoming="_yg2k0GGBEeyTwfZLilyJVw _5UjGMGGBEeyTwfZLilyJVw" outgoing="_zRA2cGGBEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_y47YgGF_EeyTwfZLilyJVw" name="Show Error Message" incoming="_1NCeQGGBEeyTwfZLilyJVw" outgoing="_5UjGMGGBEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_zP9_gGF_EeyTwfZLilyJVw" name="Login Page" incoming="_2c2gUGGBEeyTwfZLilyJVw" outgoing="_8uYv0GGBEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_0jMh8GF_EeyTwfZLilyJVw" name="Merge" incoming="_8uYv0GGBEeyTwfZLilyJVw _fENJcGGCEeyTwfZLilyJVw" outgoing="_9pZmkGGBEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_1jgIYGF_EeyTwfZLilyJVw" name="[Choice]" incoming="_9pZmkGGBEeyTwfZLilyJVw" outgoing="__YAdcGGBEeyTwfZLilyJVw _DFe0wGGCEeyTwfZLilyJVw _Iji_8GGCEeyTwfZLilyJVw _MfGPgGGCEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3CcLkGF_EeyTwfZLilyJVw" name="ViewPersonalDetails" incoming="__YAdcGGBEeyTwfZLilyJVw" outgoing="_R9cHgGGCEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HeRPYGGBEeyTwfZLilyJVw" name="ViewAttendanceReport" incoming="_DFe0wGGCEeyTwfZLilyJVw" outgoing="_WQfREGGCEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JGEToGGBEeyTwfZLilyJVw" name="ViewClassDetails" incoming="_Iji_8GGCEeyTwfZLilyJVw" outgoing="_XJEe4GGCEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NGTO4GGBEeyTwfZLilyJVw" name="VIewSubjectsDetail" incoming="_MfGPgGGCEeyTwfZLilyJVw" outgoing="_YG4K8GGCEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_SnNSsGGBEeyTwfZLilyJVw" name="Merge" incoming="_R9cHgGGCEeyTwfZLilyJVw _WQfREGGCEeyTwfZLilyJVw _XJEe4GGCEeyTwfZLilyJVw _YG4K8GGCEeyTwfZLilyJVw" outgoing="_ZQnaMGGCEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_VVjvUGGBEeyTwfZLilyJVw" name="[Logout]" incoming="_ZQnaMGGCEeyTwfZLilyJVw" outgoing="_a0r1AGGCEeyTwfZLilyJVw _fENJcGGCEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WBavwGGBEeyTwfZLilyJVw" name="LogOut" incoming="_a0r1AGGCEeyTwfZLilyJVw" outgoing="_twQHIGGCEeyTwfZLilyJVw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_X7aXQGGBEeyTwfZLilyJVw" name="" incoming="_twQHIGGCEeyTwfZLilyJVw"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_iHFlQGF6EeyTwfZLilyJVw" name="Activity">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_iIkzAGF6EeyTwfZLilyJVw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_iHwToGF6EeyTwfZLilyJVw" name="Admin Activity" node="_mecnEGF6EeyTwfZLilyJVw _qbK7UGF6EeyTwfZLilyJVw _0qWsIGF6EeyTwfZLilyJVw _4BtpgGF6EeyTwfZLilyJVw _6URiAGF6EeyTwfZLilyJVw _i3yM8GF7EeyTwfZLilyJVw _hz2OQGF8EeyTwfZLilyJVw _ze1pUGF8EeyTwfZLilyJVw _zzj8IGF8EeyTwfZLilyJVw _0Y42wGF8EeyTwfZLilyJVw _0yEy0GF8EeyTwfZLilyJVw _7mnBsGF8EeyTwfZLilyJVw _xaSiMGF9EeyTwfZLilyJVw _HdTtcGF-EeyTwfZLilyJVw _TWVw8GF-EeyTwfZLilyJVw _W3MBgGF-EeyTwfZLilyJVw _vEPbYGF-EeyTwfZLilyJVw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SOKvUGF7EeyTwfZLilyJVw" name="[True]" target="_6URiAGF6EeyTwfZLilyJVw" source="_0qWsIGF6EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ywfz4GF7EeyTwfZLilyJVw" name="[else]" target="_4BtpgGF6EeyTwfZLilyJVw" source="_0qWsIGF6EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dZmtAGF7EeyTwfZLilyJVw" target="_0qWsIGF6EeyTwfZLilyJVw" source="_qbK7UGF6EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kOFcEGF8EeyTwfZLilyJVw" target="_hz2OQGF8EeyTwfZLilyJVw" source="_4BtpgGF6EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nUkr4GF8EeyTwfZLilyJVw" target="_hz2OQGF8EeyTwfZLilyJVw" source="_mecnEGF6EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uJqUYGF8EeyTwfZLilyJVw" target="_qbK7UGF6EeyTwfZLilyJVw" source="_hz2OQGF8EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NcEAUGF9EeyTwfZLilyJVw" name="[StudentOperations]" target="_ze1pUGF8EeyTwfZLilyJVw" source="_i3yM8GF7EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Tmce8GF9EeyTwfZLilyJVw" name="[TeacherOperations]" target="_0yEy0GF8EeyTwfZLilyJVw" source="_i3yM8GF7EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ud6ScGF9EeyTwfZLilyJVw" name="[ClassOperations]" target="_zzj8IGF8EeyTwfZLilyJVw" source="_i3yM8GF7EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VeIZUGF9EeyTwfZLilyJVw" name="[SubjectOperations]" target="_0Y42wGF8EeyTwfZLilyJVw" source="_i3yM8GF7EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WtXzoGF9EeyTwfZLilyJVw" name="[AttendanceOperations]" target="_7mnBsGF8EeyTwfZLilyJVw" source="_i3yM8GF7EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9RYE8GF9EeyTwfZLilyJVw" target="_xaSiMGF9EeyTwfZLilyJVw" source="_ze1pUGF8EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-HqzwGF9EeyTwfZLilyJVw" target="_xaSiMGF9EeyTwfZLilyJVw" source="_0yEy0GF8EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_--K98GF9EeyTwfZLilyJVw" target="_xaSiMGF9EeyTwfZLilyJVw" source="_zzj8IGF8EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Abw9UGF-EeyTwfZLilyJVw" target="_xaSiMGF9EeyTwfZLilyJVw" source="_0Y42wGF8EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BSLn8GF-EeyTwfZLilyJVw" target="_xaSiMGF9EeyTwfZLilyJVw" source="_7mnBsGF8EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dfiOgGF-EeyTwfZLilyJVw" target="_HdTtcGF-EeyTwfZLilyJVw" source="_xaSiMGF9EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eWzNsGF-EeyTwfZLilyJVw" name="[True]" target="_TWVw8GF-EeyTwfZLilyJVw" source="_HdTtcGF-EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gxg8oGF-EeyTwfZLilyJVw" target="_W3MBgGF-EeyTwfZLilyJVw" source="_TWVw8GF-EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4_T9YGF-EeyTwfZLilyJVw" target="_vEPbYGF-EeyTwfZLilyJVw" source="_6URiAGF6EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6q25MGF-EeyTwfZLilyJVw" name="[else]" target="_vEPbYGF-EeyTwfZLilyJVw" source="_HdTtcGF-EeyTwfZLilyJVw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-aJ1cGF-EeyTwfZLilyJVw" target="_i3yM8GF7EeyTwfZLilyJVw" source="_vEPbYGF-EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_mecnEGF6EeyTwfZLilyJVw" name="" outgoing="_nUkr4GF8EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qbK7UGF6EeyTwfZLilyJVw" name="Login" incoming="_uJqUYGF8EeyTwfZLilyJVw" outgoing="_dZmtAGF7EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_0qWsIGF6EeyTwfZLilyJVw" name="[Login verification]" incoming="_dZmtAGF7EeyTwfZLilyJVw" outgoing="_SOKvUGF7EeyTwfZLilyJVw _Ywfz4GF7EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4BtpgGF6EeyTwfZLilyJVw" name="Show Error Message" incoming="_Ywfz4GF7EeyTwfZLilyJVw" outgoing="_kOFcEGF8EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6URiAGF6EeyTwfZLilyJVw" name="Show Profile Page" incoming="_SOKvUGF7EeyTwfZLilyJVw" outgoing="_4_T9YGF-EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_i3yM8GF7EeyTwfZLilyJVw" name="[Choice]" incoming="_-aJ1cGF-EeyTwfZLilyJVw" outgoing="_NcEAUGF9EeyTwfZLilyJVw _Tmce8GF9EeyTwfZLilyJVw _Ud6ScGF9EeyTwfZLilyJVw _VeIZUGF9EeyTwfZLilyJVw _WtXzoGF9EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_hz2OQGF8EeyTwfZLilyJVw" name="Merge" incoming="_kOFcEGF8EeyTwfZLilyJVw _nUkr4GF8EeyTwfZLilyJVw" outgoing="_uJqUYGF8EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ze1pUGF8EeyTwfZLilyJVw" name="Add/Modify Student" incoming="_NcEAUGF9EeyTwfZLilyJVw" outgoing="_9RYE8GF9EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_zzj8IGF8EeyTwfZLilyJVw" name="Add/Modify Classes" incoming="_Ud6ScGF9EeyTwfZLilyJVw" outgoing="_--K98GF9EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0Y42wGF8EeyTwfZLilyJVw" name="Add/Modify Subject" incoming="_VeIZUGF9EeyTwfZLilyJVw" outgoing="_Abw9UGF-EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0yEy0GF8EeyTwfZLilyJVw" name="Add/Modify Teacher" incoming="_Tmce8GF9EeyTwfZLilyJVw" outgoing="_-HqzwGF9EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7mnBsGF8EeyTwfZLilyJVw" name="Mark/Modify Attendance" incoming="_WtXzoGF9EeyTwfZLilyJVw" outgoing="_BSLn8GF-EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_xaSiMGF9EeyTwfZLilyJVw" name="Merge" incoming="_9RYE8GF9EeyTwfZLilyJVw _-HqzwGF9EeyTwfZLilyJVw _--K98GF9EeyTwfZLilyJVw _Abw9UGF-EeyTwfZLilyJVw _BSLn8GF-EeyTwfZLilyJVw" outgoing="_dfiOgGF-EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_HdTtcGF-EeyTwfZLilyJVw" name="[LogOut]" incoming="_dfiOgGF-EeyTwfZLilyJVw" outgoing="_eWzNsGF-EeyTwfZLilyJVw _6q25MGF-EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TWVw8GF-EeyTwfZLilyJVw" name="Logout" incoming="_eWzNsGF-EeyTwfZLilyJVw" outgoing="_gxg8oGF-EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_W3MBgGF-EeyTwfZLilyJVw" incoming="_gxg8oGF-EeyTwfZLilyJVw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_vEPbYGF-EeyTwfZLilyJVw" name="Merge" incoming="_4_T9YGF-EeyTwfZLilyJVw _6q25MGF-EeyTwfZLilyJVw" outgoing="_-aJ1cGF-EeyTwfZLilyJVw"/>
+  </packagedElement>
+</uml:Model>
